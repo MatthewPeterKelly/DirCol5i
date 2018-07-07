@@ -555,13 +555,13 @@ if isempty(F.bndCst)
     c_bnd = [];
     ceq_bnd = [];
 else
-    t0 = t(1);
-    t1 = t(end);
-    x0 = x(:,1);
-    x1 = x(:,end);
-    dx0 = dx(:,1);
-    dx1 = dx(:,end);
-    [c_bnd, ceq_bnd] = F.bndCst(t0,t1,x0,x1,dx0,dx1);
+    boundary.t0 = t(1);
+    boundary.t1 = t(end);
+    boundary.x0 = x(:,1);
+    boundary.x1 = x(:,end);
+    boundary.dx0 = dx(:,1);
+    boundary.dx1 = dx(:,end);
+    [c_bnd, ceq_bnd] = F.bndCst(boundary);
 end
 
 %%%% Enforce constraints on collocation points:

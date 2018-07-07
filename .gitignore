@@ -1,0 +1,21 @@
+# Matlab auto save files:
+**/*.asv
+**/*.*~
+**/*GPOPS*info.txt
+
+# Matlab data files:
+**/*.mat
+
+# pdf files
+**/*.pdf
+
+# LaTeX build artifacts:
+**/*.aux
+**/*.synctex.gz
+**/*.pdf
+**/*.bbl
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.out
+**/*.blg
