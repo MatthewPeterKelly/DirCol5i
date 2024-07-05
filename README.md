@@ -32,6 +32,8 @@ If you use this code and would like to add some feature, or improve the code or 
 
 If you are using this software, please cite the accompanying paper: *"DirCol5i: Trajectory Optimization for Problems With High-Order Derivatives"*, which can be found here: https://doi.org/10.1115/1.4041610
 
+[DirCol5i_TechnicalBrief_Sep19_2018.pdf](https://github.com/user-attachments/files/16113572/DirCol5i_techBrief_final_Sep19_2018.pdf)
+
 ## Documentation:
 
 The documentation here is a bit sparse. If you are curious about this software and run into trouble, let me know and I'll add documentation as needed. Even better, if you are using this software and have some improvements to the documentation, then make a pull request!
